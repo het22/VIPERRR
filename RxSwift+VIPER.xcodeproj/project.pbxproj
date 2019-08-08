@@ -3,13 +3,14 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		30C49CD5CB730C5572E65680 /* Pods_RxSwift_VIPERUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FF3C9995658AB7787EB7A42 /* Pods_RxSwift_VIPERUITests.framework */; };
 		C117FEB640AE6EA0C2E4E9D5 /* Pods_RxSwift_VIPERTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC484790CE922E0AA32AF749 /* Pods_RxSwift_VIPERTests.framework */; };
 		C9D69FC9D0E438B28E05AEBC /* Pods_RxSwift_VIPER.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11CAEEED1CCEFF2EC16B079C /* Pods_RxSwift_VIPER.framework */; };
+		CB2CF07B22F812BA00A31609 /* Persistable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2CF07A22F812BA00A31609 /* Persistable.swift */; };
 		CB6EEF1322F40C1A00CBA7F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6EEF1222F40C1A00CBA7F3 /* AppDelegate.swift */; };
 		CB6EEF1B22F40C1A00CBA7F3 /* RxSwift_VIPER.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CB6EEF1922F40C1A00CBA7F3 /* RxSwift_VIPER.xcdatamodeld */; };
 		CB6EEF1D22F40C1B00CBA7F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB6EEF1C22F40C1B00CBA7F3 /* Assets.xcassets */; };
@@ -58,6 +59,7 @@
 		B46A6BC4CB0D75952EC76D5E /* Pods-RxSwift+VIPERTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwift+VIPERTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RxSwift+VIPERTests/Pods-RxSwift+VIPERTests.debug.xcconfig"; sourceTree = "<group>"; };
 		C1555C5434443F8E24C8E62D /* Pods-RxSwift+VIPERUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwift+VIPERUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RxSwift+VIPERUITests/Pods-RxSwift+VIPERUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		C75769F24EC3A98E75810C15 /* Pods-RxSwift+VIPER.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwift+VIPER.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RxSwift+VIPER/Pods-RxSwift+VIPER.debug.xcconfig"; sourceTree = "<group>"; };
+		CB2CF07A22F812BA00A31609 /* Persistable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistable.swift; sourceTree = "<group>"; };
 		CB6EEF0F22F40C1A00CBA7F3 /* RxSwift+VIPER.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RxSwift+VIPER.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB6EEF1222F40C1A00CBA7F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CB6EEF1A22F40C1A00CBA7F3 /* RxSwift_VIPER.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RxSwift_VIPER.xcdatamodel; sourceTree = "<group>"; };
@@ -246,6 +248,7 @@
 		CBF9DC0422F4363C00BF4C63 /* Database */ = {
 			isa = PBXGroup;
 			children = (
+				CB2CF07A22F812BA00A31609 /* Persistable.swift */,
 				CBF9DC0522F4368100BF4C63 /* RealmDatabase.swift */,
 				CBF9DC0722F436BC00BF4C63 /* ItemDatabase.swift */,
 			);
@@ -471,6 +474,7 @@
 				CBF9DBA722F40D2600BF4C63 /* ItemListInteractor.swift in Sources */,
 				CBF9DBFE22F4207500BF4C63 /* Item.swift in Sources */,
 				CBF9DBA622F40D2600BF4C63 /* ItemListPresenter.swift in Sources */,
+				CB2CF07B22F812BA00A31609 /* Persistable.swift in Sources */,
 				CBF9DBAC22F40D3000BF4C63 /* Module.swift in Sources */,
 				CBF9DBA922F40D2600BF4C63 /* ItemListProtocol.swift in Sources */,
 				CBF9DC0822F436BC00BF4C63 /* ItemDatabase.swift in Sources */,

@@ -7,8 +7,6 @@ target 'RxSwift+VIPER' do
 
   # Pods for RxSwift+VIPER
   
-  pod "HetSwift", :path => '/Users/Het/Documents/Project/cocoapods/HetSwift'
-  
   pod 'SwiftbyHet'
   pod 'RxSwift'
   pod 'RxCocoa'

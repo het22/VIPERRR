@@ -1,6 +1,4 @@
 PODS:
-  - HetSwift (0.1.0):
-    - RealmSwift
   - Realm (3.17.3):
     - Realm/Headers (= 3.17.3)
   - Realm/Headers (3.17.3)
@@ -12,10 +10,9 @@ PODS:
   - RxRelay (5.0.0):
     - RxSwift (~> 5)
   - RxSwift (5.0.0)
-  - SwiftbyHet (0.1.1)
+  - SwiftbyHet (0.1.5)
 
 DEPENDENCIES:
-  - HetSwift (from `/Users/Het/Documents/Project/cocoapods/HetSwift`)
   - RealmSwift
   - RxCocoa
   - RxSwift
@@ -30,19 +27,14 @@ SPEC REPOS:
     - RxSwift
     - SwiftbyHet
 
-EXTERNAL SOURCES:
-  HetSwift:
-    :path: "/Users/Het/Documents/Project/cocoapods/HetSwift"
-
 SPEC CHECKSUMS:
-  HetSwift: 9ead04532b644d102eeb952ddf536a5e25ca2d45
   Realm: 5a1d9d47bfc101dd597668b1a8af4288a2557f6d
   RealmSwift: b7fdc2d18616621c31df5c7a398a45a2163f8eb0
   RxCocoa: fcf32050ac00d801f34a7f71d5e8e7f23026dcd8
   RxRelay: 4f7409406a51a55cd88483f21ed898c234d60f18
   RxSwift: 8b0671caa829a763bbce7271095859121cbd895f
-  SwiftbyHet: 2a3a56276c9b50d1e91b1b5caf98f7a0224b4522
+  SwiftbyHet: df4c9fd32a639e13ece0461ae4861cb4b886e685
 
-PODFILE CHECKSUM: daaf3785eb09393d870dee745b177a8ce2ab4149
+PODFILE CHECKSUM: 085e03e66ee44403bde0917d823daa93500ad3eb
 
 COCOAPODS: 1.7.5
